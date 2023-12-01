@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div>
+    <br><br>
+    <!-- <div class="tooltip">Hover over me
+        <span class="tooltiptext">Tooltip text</span>
+    </div> -->
+    <div class="tooltip">
+        <h1 id="h1" class="tooltip">rgba(23,44,133,1)</h1>
+        <h2 style="margin-top: -0.5rem;"></h2>
+        <span class="tooltiptext"><i>Click to copy!</i></span>
+    </div>
+    <!-- <p class="hide" class="tooltiptext">click to copy!</p> -->
+    <div class="rgb"></div>
+    <div class="lables">
+        <!-- <label for="rval">Red</label> -->
+        <input type="range" min="0" max="255" step="1" id="rval" value="23"/><br>
+        <!-- <label for="gval">Green</label> -->
+        <input type="range" min="0" max="255" step="1" id="gval" value="133"/><br>
+        <!-- <label for="bval">Blue</label> -->
+        <input type="range" min="0" max="255" step="1" id="bval" value="44"/><br>
+        <!-- <label for="aval">Alpha value</label> -->
+        <input type="range" min="0" max="1" id="aval" step="0.001"/>
+    </div>
+ </div>
+    <script src="app.js"></script>
+</body>
+</html>

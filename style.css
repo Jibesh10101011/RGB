@@ -1,0 +1,94 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+.red {
+    background-color: red;
+    height: 10rem;
+    width: 10rem;
+}
+.green {
+    background-color: green;
+    height: 10rem;
+    width: 10rem;
+}
+.blue {
+    background-color: blue;
+    height: 10rem;
+    width: 10rem;
+}
+.rgb {
+    height: 10rem;
+    width: 30rem;
+    background-color: rgba(23,44,133,1);
+    margin: auto;
+    border-radius: 1rem;
+    border: 2px solid whitesmoke;
+}
+input {
+    width: 20rem;
+    appearance:none;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    margin: 1rem;
+    box-shadow: 0px 0px 30px 0px rgba(255, 255, 255, 0.314);
+    border-radius: 0.5rem;
+    border: 2px solid rgba(255, 255, 255, 0.778);
+}
+#rval {
+    background-color: rgba(255, 0, 0, 0.77);
+}
+#gval {
+    background-color: rgba(0, 128, 0, 0.447);
+}
+#bval {
+    background-color: rgba(0, 0, 255, 0.48);
+}
+#aval {
+    background-color:rgba(255, 255, 255, 0.908);
+}
+input::-webkit-slider-runnable-track {
+    height: 2.5em;
+}
+input::-webkit-slider-thumb {
+    appearance: none;
+    height:2.8rem;
+    width:0.5rem;
+    border: 2px solid rgba(255, 255, 255, 0.612);
+    border-radius: 1rem;
+    margin-top: -0.35rem;
+}
+h1,h2 {
+    cursor: pointer !important;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: default;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    padding: 0.25em 0.5em;
+    background-color: #9a3b88d6;
+    color:rgba(154,251,136,0.84);
+    text-align: center;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 2rem;
+    white-space: nowrap;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 100%;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+span {
+    font-size: 1.25rem;
+}
